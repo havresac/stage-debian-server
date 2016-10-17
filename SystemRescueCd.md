@@ -33,3 +33,6 @@ LABEL SRCD
 	kernel sysrcd/rescue64
 	append initrd=sysrcd/initram.igz netboot=http://10.72.9.217/sysrcd/sysrcd.dat setkmap=fr
 
+redémarrer le client
+
+![démarrage sysrcd](https://github.com/havresac/stage-debian-server/blob/master/img/sysrcd1.png)
