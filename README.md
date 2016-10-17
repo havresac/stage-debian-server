@@ -1,17 +1,16 @@
-# stage-debian-server
+### Détection des cartes réseau
 
+```
 dmesg |grep eth
 eth0: (PCI:33MHz:32-bit) 08:00:27:eb:bb:8b
 eth1: (PCI:33MHz:32-bit) 08:00:27:95:12:01
 eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+```
+
+### Installation du service isc-dhcp-server
+```
 
 sudo apt-get install isc-dhcp-server
-
-sudo nano /etc/default/isc-dhcp-server
-
-# On what interfaces should the DHCP server (dhcpd) serve DHCP requests?
-#       Separate multiple interfaces with spaces, e.g. "eth0 eth1".
-INTERFACES="eth1"
 
 sudo nano /etc/dhcp/dhcpd.conf
 
@@ -29,4 +28,14 @@ sudo nano /etc/dhcp/dhcpd.conf
     	option domain-name "local";
     	option domain-name-servers 8.8.8.8, 8.8.4.4;
     }
+```
+
+### Configuration du port réseau utilisé
+```
+
+sudo nano /etc/default/isc-dhcp-server
+
+INTERFACES="eth1"
+
+```
     
