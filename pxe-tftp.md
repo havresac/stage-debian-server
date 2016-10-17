@@ -21,6 +21,13 @@ sudo cp /usr/lib/syslinux/menu.c32 /var/lib/tftpboot/
 <<<<<<< HEAD
 =======
 ```
+
+Debian 8 (Jessie) Copie des fichiers pxelinux.0 et menu.c32
+```
+sudo cp /usr/lib/PXELINUX/pxelinux.0 /var/lib/tftpboot/
+sudo cp /usr/lib/syslinux/modules/bios/menu.c32 /var/lib/tftpboot/
+```
+
 ## Création du fichier /var/lib/tftpboot/pxelinux.cfg/default
 ```
 sudo mkdir /var/lib/tftpboot/pxelinux.cfg
