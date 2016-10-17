@@ -4,10 +4,10 @@ sudo apt-get install syslinux-common
 sudo apt-get install tftpd-hpa
 ```
 ## tftpd en mode verbeux
-sudo nano /etc/default/tftpd-hpa
 ```
-# /etc/default/tftpd-hpa
+sudo nano /etc/default/tftpd-hpa
 
+# /etc/default/tftpd-hpa
 TFTP_USERNAME="tftp"
 TFTP_DIRECTORY="/var/lib/tftpboot"
 TFTP_ADDRESS="[::]:69"
