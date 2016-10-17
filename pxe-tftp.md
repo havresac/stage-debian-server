@@ -10,6 +10,10 @@ subnet 192.168.42.0 netmask 255.255.255.0 {
     filename "pxelinux.0";
     range 192.168.42.10 192.168.42.50;
 ```
+Redémarrer le service pour que les modifications soient prises en compte
+```
+sudo service isc-dhcp-server restart
+```
 Copie des fichiers pxelinux.0 et menu.c32
 ```
 sudo cp /usr/lib/syslinux/pxelinux.0 /var/lib/tftpboot/
@@ -32,3 +36,5 @@ label  local
 	MENU LABEL BOOT disque dur
 	LOCALBOOT 0
 ```
+Coté client
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
