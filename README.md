@@ -6,10 +6,20 @@ eth0: (PCI:33MHz:32-bit) 08:00:27:eb:bb:8b
 eth1: (PCI:33MHz:32-bit) 08:00:27:95:12:01
 eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
 ```
+### Configuration de eth1
+```
+sudo nano /etc/network/interfaces
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+
+iface eth1 inet static
+        address 192.168.42.1
+        netmask 255.255.255.0
+```
 
 ### Installation du service isc-dhcp-server
 ```
-
 sudo apt-get install isc-dhcp-server
 
 sudo nano /etc/dhcp/dhcpd.conf
@@ -41,3 +51,8 @@ INTERFACES="eth1"
 sudo service isc-dhcp-server start
 ```
 
+### démarrage du client
+```
+Oct 17 10:51:24 sidsic-stage1 dhcpd: Wrote 0 leases to leases file.
+Oct 17 10:51:52 sidsic-stage1 dhcpd: DHCPDISCOVER from 08:00:27:3c:2e:7d via eth1
+```
