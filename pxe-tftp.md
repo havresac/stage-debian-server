@@ -37,4 +37,5 @@ label  local
 	LOCALBOOT 0
 ```
 Coté client
-![client-pxe](https://github.com/havresac/stage-debian-server/blob/master/img/client-pxe.png)
+![client-pxe]
+(https://github.com/havresac/stage-debian-server/blob/master/img/client-pxe.png)
