@@ -1,3 +1,7 @@
+## But
+Créer un serveur PXE permettant la mise à dispositions d'outils dans supports 
+![schema global](https://github.com/havresac/stage-debian-server/blob/master/img/schema.svg)
+
 ### Détection des cartes réseau
 
 ```
