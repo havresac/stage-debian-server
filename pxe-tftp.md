@@ -37,4 +37,4 @@ label  local
 	LOCALBOOT 0
 ```
 Coté client
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![client-pxe](https://github.com/havresac/stage-debian-server/blob/master/img/client-pxe.png)
