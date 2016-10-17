@@ -32,10 +32,12 @@ sudo nano /etc/dhcp/dhcpd.conf
 
 ### Configuration du port réseau utilisé
 ```
-
 sudo nano /etc/default/isc-dhcp-server
 
 INTERFACES="eth1"
-
 ```
-    
+### Démarrage du service
+```
+sudo service isc-dhcp-server start
+```
+
