@@ -19,7 +19,7 @@ sudo mkdir /var/lib/tftpboot/clonezilla/live/
 ```
 
 
-y placer les fichiers nécessaires
+Placer les fichiers nécessaires au boot de clonezilla depuis le serveur réseau dans le répertoire `/var/lib/tftpboot/`
 
 ```
 sudo cp /mnt/iso/clonezilla-live-*/live/vmlinuz /var/lib/tftpboot/clonezilla/live/vmlinuz
