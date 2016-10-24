@@ -61,8 +61,12 @@ INTERFACES="eth1"
 sudo service isc-dhcp-server start
 ```
 
-### démarrage du client
+### Démarrage du client
 ```
 Oct 17 10:51:24 sidsic-stage1 dhcpd: Wrote 0 leases to leases file.
 Oct 17 10:51:52 sidsic-stage1 dhcpd: DHCPDISCOVER from 08:00:27:3c:2e:7d via eth1
 ```
+
+## Etape 2 
+
+Installation d'un [serveur web léger] (https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md)
