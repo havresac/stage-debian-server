@@ -1,3 +1,5 @@
+# Ajout de Clonezilla dans le serveur PXE 
+
 ##Télécharger le dernier iso stable de Clonezilla
 
 http://clonezilla.org/downloads/download.php?branch=stable
@@ -35,3 +37,9 @@ sudo nano /var/lib/tftpboot/pxelinux.cfg/default
 
 et ajouter un label supplémentaire
 
+label Clonzilla-live
+    MENU LABEL Clonezilla Live (Ramdisk)
+    kernel clonezilla/live/vmlinuz
+    append initrd=clonezilla/live/initrd.img boot=live union=overlay username=user config components quiet noswap edd=on nomodeset nodmraid locales=keyboard-layouts=ocs_live_run="ocs-live-general" ocs_live_extra_param="" ocs_live_batch=no net.iframes=0 nosplash noprompt fetch=tftp://192.168.42.1/clonezilla/live/filesystem.squashfs 
+
+redémarrer le client
