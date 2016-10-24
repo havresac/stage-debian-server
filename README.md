@@ -1,9 +1,9 @@
 ## But
 Créer un serveur PXE permettant la mise à dispositions d'outils sans supports (![schema global](https://github.com/havresac/stage-debian-server/blob/master/img/schema.svg))
 
-__Notions préliminaires :__
+> __Notions préliminaires :__
 
-Le serveur PXE (Preboot eXecution Environment, environnement de démarrage d'ordinateurs en réseau) aura ici pour but de fournir aux postes clients connectés en réseau local une image ISO bootable en vue du déploiement d'images disque. 
+> Le serveur PXE (Preboot eXecution Environment, environnement de démarrage d'ordinateurs en réseau) aura ici pour but de fournir aux postes clients connectés en réseau local une image ISO bootable en vue du déploiement d'images disque. 
 
 Le serveur PXE utilise Debian GNU/Linux en tant que système d'exploitation.
 
@@ -67,9 +67,9 @@ Oct 17 10:51:24 sidsic-stage1 dhcpd: Wrote 0 leases to leases file.
 Oct 17 10:51:52 sidsic-stage1 dhcpd: DHCPDISCOVER from 08:00:27:3c:2e:7d via eth1
 ```
 
-## Service TFTP
+## Serveur PXE & Service TFTP
 
-Installation et Configuration du [service TFTP] (https://github.com/havresac/stage-debian-server/bl$
+Installation et Configuration du [serveur PXE et du service TFTP] (https://github.com/havresac/stage-debian-server/blob/master/pxe-tftp.md)
 
 ## Lighttpd & SystemRescueCd
 
