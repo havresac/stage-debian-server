@@ -67,6 +67,15 @@ Oct 17 10:51:24 sidsic-stage1 dhcpd: Wrote 0 leases to leases file.
 Oct 17 10:51:52 sidsic-stage1 dhcpd: DHCPDISCOVER from 08:00:27:3c:2e:7d via eth1
 ```
 
-## Etape 2 
+## Service TFTP
 
-Installation d'un [serveur web léger] (https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md)
+Installation et Configuration du [service TFTP] (https://github.com/havresac/stage-debian-server/bl$
+
+## Lighttpd & SystemRescueCd
+
+Installation d'un [serveur web léger] (https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md) et préparation et mise en place d'une image [SystemRescueCd](https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md#t%C3%A9l%C3%A9charger-le-dernier-iso-stable-de-systemrescuecd)
+
+## Clonezilla
+
+Préparation et mise en place d'une image [Clonezilla] (https://github.com/havresac/stage-debian-server/blob/master/clonezilla-live.md)
+
