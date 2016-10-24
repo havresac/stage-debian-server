@@ -69,13 +69,13 @@ Oct 17 10:51:52 sidsic-stage1 dhcpd: DHCPDISCOVER from 08:00:27:3c:2e:7d via eth
 
 ## Serveur PXE & Service TFTP
 
-Installation et Configuration du [serveur PXE et du service TFTP]. (https://github.com/havresac/stage-debian-server/blob/master/pxe-tftp.md)
+Installation et Configuration du [serveur PXE et du service TFTP] (https://github.com/havresac/stage-debian-server/blob/master/pxe-tftp.md).
 
 ## Lighttpd & SystemRescueCd
 
-Installation d'un [serveur web léger]. (https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md) et préparation et mise en place d'une image [SystemRescueCd](https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md#t%C3%A9l%C3%A9charger-le-dernier-iso-stable-de-systemrescuecd)
+Installation d'un [serveur web léger] (https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md) et préparation et mise en place d'une image [SystemRescueCd](https://github.com/havresac/stage-debian-server/blob/master/SystemRescueCd.md#t%C3%A9l%C3%A9charger-le-dernier-iso-stable-de-systemrescuecd).
 
 ## Clonezilla
 
-Préparation et mise en place d'une image [Clonezilla]. (https://github.com/havresac/stage-debian-server/blob/master/clonezilla-live.md)
+Préparation et mise en place d'une image [Clonezilla] (https://github.com/havresac/stage-debian-server/blob/master/clonezilla-live.md).
 
