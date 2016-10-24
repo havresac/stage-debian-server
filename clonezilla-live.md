@@ -1,6 +1,6 @@
 # Ajout de Clonezilla dans le serveur PXE 
 
-##Télécharger le dernier iso stable de Clonezilla
+### Télécharger le dernier iso stable de Clonezilla
 
 http://clonezilla.org/downloads/download.php?branch=stable
 
