@@ -1,6 +1,13 @@
 ## But
 Créer un serveur PXE permettant la mise à dispositions d'outils sans supports (![schema global](https://github.com/havresac/stage-debian-server/blob/master/img/schema.svg))
 
+__Notions préliminaires :__
+
+Le serveur PXE (Preboot eXecution Environment, environnement de démarrage d'ordinateurs en réseau) aura ici pour but de fournir aux postes clients connectés en réseau local une image ISO bootable en vue du déploiement d'images disque. 
+
+Le serveur PXE utilise Debian GNU/Linux en tant que système d'exploitation.
+
+
 ### Détection des cartes réseau
 
 ```
